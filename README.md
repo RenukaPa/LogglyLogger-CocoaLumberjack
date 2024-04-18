@@ -17,6 +17,12 @@ Using [CocoaPods](http://www.cocoapods.org) :
 
     pod "LogglyLogger-CocoaLumberjack", "~> 2.0"
 
+#### Swift Package Manager
+
+Go to XCode --> File --> Add Package Dependencies --> In serach enter --> https://github.com/melke/LogglyLogger-CocoaLumberjack.git
+
+Now add this dependency in your Target.
+
 ## Usage
 
 First, make sure that you have created an API key in your Loggly account (they call this Customer Token, and can be created

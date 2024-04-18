@@ -3,8 +3,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <CocoaLumberjack/CocoaLumberjack.h>
+//#import <CocoaLumberjack/CocoaLumberjack.h>
 #import <CocoaLumberjack/DDAbstractDatabaseLogger.h>
+@import CocoaLumberjack;
 
 
 @interface LogglyLogger : DDAbstractDatabaseLogger

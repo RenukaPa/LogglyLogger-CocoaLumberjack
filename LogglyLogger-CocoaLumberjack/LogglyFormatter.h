@@ -3,8 +3,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <CocoaLumberjack/CocoaLumberjack.h>
-
+//#import <CocoaLumberjack/CocoaLumberjack.h>
+@import CocoaLumberjack;
 
 @protocol LogglyFieldsDelegate
 - (NSDictionary *)logglyFieldsToIncludeInEveryLogStatement;
